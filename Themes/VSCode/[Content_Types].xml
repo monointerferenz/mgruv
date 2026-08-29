@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types">
+  <Default Extension="json" ContentType="application/json" />
+  <Default Extension="md" ContentType="text/markdown" />
+  <Default Extension="xml" ContentType="application/xml" />
+  <Default Extension="vsixmanifest" ContentType="text/xml" />
+  <Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml" />
+  <Override PartName="/extension/package.json" ContentType="application/zip" />
+  <Override PartName="/extension/themes/mgruv-color-theme.json" ContentType="application/json" />
+</Types>

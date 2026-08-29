@@ -1,0 +1,30 @@
+{
+  "name": "mgruv-vscode-theme",
+  "displayName": "MGRUV",
+  "description": "A muted, warm Gruvbox-like dark theme built from the MGRUV palette.",
+  "version": "1.0.0",
+  "publisher": "local",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "gruvbox",
+    "warm",
+    "muted",
+    "mgruv"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "MGRUV",
+        "uiTheme": "vs-dark",
+        "path": "themes/mgruv-color-theme.json"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
+  <Metadata>
+    <Identity Id="local.mgruv-vscode-theme" Version="1.0.0" Language="en-US" Publisher="local" />
+    <DisplayName>MGRUV</DisplayName>
+    <Description xml:space="preserve">A muted, warm Gruvbox-like dark theme built from the MGRUV palette.</Description>
+  </Metadata>
+  <Installation InstalledByMsi="false">
+    <InstallationTarget Id="Microsoft.VisualStudio.Code" Version="^1.80.0" />
+  </Installation>
+  <Dependencies />
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.Services.Content.Details" Path="extension/package.json" Addressable="true" />
+    <Asset Type="Microsoft.VisualStudio.Services.Content.Changelog" Path="extension/README.md" Addressable="true" />
+  </Assets>
+</PackageManifest>

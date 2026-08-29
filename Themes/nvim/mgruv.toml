@@ -1,0 +1,44 @@
+[information]
+ name = "mgruv"
+ background = "dark"
+ author = 'monointerfereny <operator@monointerferenz.de>'
+
+[palette]
+ fg = '#D4C2A0'
+ bg = '#1E2021'
+
+ white = '#D4C2A0'
+ gray = '#818383'
+ blue = '#7E9FC0'
+ green = '#86A987'
+ cyan = '#7BA6A3'
+ red = '#C58B8B'
+ orange = '#D18A68'
+ yellow = '#C6A15B'
+ purple = '#9B829B'
+ magenta = '#B9828E'
+ light_gray = '#908377'
+
+ [highlights]
+ Normal = 'fg bg'
+ SignColumn = '- bg'
+ MsgArea = 'fg bg'
+ ModeMsg = 'fg bg'
+ MsgSeparator = 'fg bg'
+ SpellBad = 'red - u'
+ SpellCap = 'yellow - u'
+ SpellLocal = 'green - u'
+ SpellRare = 'purple - u'
+ NormalNC = 'fg bg'
+ Pmenu = 'red bg - - 50'
+ PmenuSel = '- blue'
+ WildMenu = 'fg blue'
+ CursorLineNr = 'light_gray - b'
+ Comment = 'gray - i'
+
+[Treesitter]
+ TSComment = 'link:Comment'
+ TSAnnotation = 'blue'
+ TSAttribute = 'cyan'
+ TSConstructor = 'cyan'
+ TSType = 'cyan'
